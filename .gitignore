@@ -1,0 +1,80 @@
+\# idea stuff
+*.iml
+.idea/
+
+# scala staff
+*.class
+*.log
+
+#cmwell specific
+.credentials
+components/
+components-extras/
+server-ng/cmwell-cons/app/data/
+server-ng/cmwell-cons/app/docs/
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+
+# sbt elasticsearch plugin
+server-ng/cmwell-fts/data/*
+server-ng/cmwell-fts/*.gz
+
+# Scala-IDE specific
+.scala_dependencies
+.classpath
+.cache
+.project
+.settings/
+.metadata/
+
+#logs
+logs/
+
+#private notes
+*.note
+
+#latex
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
+*.tex.backup
+*.tex~
+
+# osx stuff
+.DS_Store
