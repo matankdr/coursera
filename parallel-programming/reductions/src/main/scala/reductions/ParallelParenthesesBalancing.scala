@@ -56,9 +56,10 @@ object ParallelParenthesesBalancing {
   def parBalance(chars: Array[Char], threshold: Int): Boolean = {
 
     def traverse(from: Int, until: Int, arg1: Int, arg2: Int) : Option[Int] = {
-      if (until - from < threshold) {
+      if (until - from <= threshold) {
         chars.slice(from, until).foldLeft(Option(0))((agg, c) => c match {
           case '(' => agg.map(_ + 1)
+          case ')' if agg.isEmpty => None
           case ')' => agg.map(_ - 1) match {
             case Some(x) if from == 0 && x < 0  => None
             case None => None

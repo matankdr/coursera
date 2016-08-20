@@ -69,7 +69,8 @@ object LineOfSight {
    */
   def upsweep(input: Array[Float], from: Int, end: Int,
     threshold: Int): Tree = {
-    if (end - from < threshold) {
+
+    if (end - from <= threshold) {
       Leaf( from, end, upsweepSequential(input, from, end) )
     }
     else {
@@ -118,8 +119,8 @@ object LineOfSight {
     downsweep(
       input,
       output,
-      0,
-      upsweep(input, 1, input.length, threshold)
+      0f,
+      upsweep(input, 0, input.length, threshold)
     )
   }
 }
