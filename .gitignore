@@ -1,4 +1,4 @@
-\# idea stuff
+# idea stuff
 *.iml
 .idea/
 
@@ -75,6 +75,8 @@ logs/
 *.tdo
 *.tex.backup
 *.tex~
+
+*.jar
 
 # osx stuff
 .DS_Store
