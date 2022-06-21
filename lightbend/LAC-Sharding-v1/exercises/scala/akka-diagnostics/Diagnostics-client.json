@@ -1,0 +1,207 @@
+{
+  "start-time" : "2020-06-13T07:08:34.504",
+  "akka-version" : "2.6.0",
+  "akka-diagnostics-version" : "1.1.12",
+  "akka-http-version" : "10.1.11",
+  "akka-split-brain-resolver-version" : "1.1.12",
+  "classpath" : "/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/job-1/target/06fb1c9f/e580b704/orders_2.13-0.1-SNAPSHOT.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/ca0e1591/8d7931b3/cinnamon-scala_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e3d92679/ddf3583c/cinnamon-core-java-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/fdff50c2/9e4235b4/akka-serialization-jackson_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5fb9d74c/aff38c77/jackson-module-scala_2.13-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/22a3ee42/fcfcb823/cinnamon-akka-http_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7f9017fb/65a4d7a3/config-1.4.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3e4726c7/0efedb67/jackson-core-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/c87d06e1/a3544a82/akka-distributed-data_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/bd47ed3a/e1526a54/jandex-2.0.5.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4b9b84b9/8752e249/akka-split-brain-resolver_2.13-1.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/31e5579b/cb34b137/scala-java8-compat_2.13-0.9.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/277c5454/4233fb28/jackson-datatype-jdk8-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5c8d81b8/48c8d9ca/jaxb-api-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e52ab892/066b4db5/commons-lang3-3.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/baf40549/f7a642d3/scala-library-2.13.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e63dd70f/0caa92e8/txw2-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/fa233aad/48a5ef8b/akka-http-spray-json_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7cb401ba/de51ef4b/scala-parser-combinators_2.13-1.1.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a021505b/a5f09784/spray-json_2.13-1.3.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/0f749020/a83fa3ff/classmate-1.3.4.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/28415d87/29a67df4/jnr-a64asm-1.0.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/72b6d823/173c0be0/akka-coordination_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/719f5fb2/0a68ca93/akka-protobuf-v3_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2fe4fead/721ddddb/cinnamon-jvm-metrics-producer-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a5fa2262/dccb3b8e/jnr-constants-0.9.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/bf1f5df0/12b3affb/akka-http-core_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4df530bd/f5a8db26/ssl-config-core_2.13-0.4.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4667a51e/c140e4ce/simpleclient-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/21f20bc4/97705cb7/logback-classic-1.2.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/1ee48baa/3a1689ef/asm-commons-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9c031ace/be238050/asm-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/071ed560/505e9f5a/istack-commons-runtime-3.0.7.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8957fd7e/11c5c43b/akka-cluster-sharding_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9771a42c/afa76a91/h2-1.4.199.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/26f7a99e/bb6a568b/hibernate-entitymanager-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f0ff2322/3fb9012e/lmdbjava-0.7.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2d76a927/025fb2e5/jackson-annotations-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f42e962c/af2bdcdb/c3p0-0.9.5.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2f4527ab/c653cd40/FastInfoset-1.2.15.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/d09af196/aa4347ce/cinnamon-java-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/947c1fb1/5dff3bb4/hibernate-commons-annotations-5.1.0.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2301ebc0/1b96c5e6/simpleclient_httpserver-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f86d1bed/a7690bbc/akka-management-cluster-http_2.13-1.0.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/def43e0b/4e207215/akka-slf4j_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/45a57760/0e96b0bf/byte-buddy-1.9.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/29b9d6c9/79aadb42/javax.persistence-api-2.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7e76bccd/be35860f/agrona-1.0.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5b5ccb72/ea1caec1/protobuf-java-3.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3fc5ee89/d9e87303/mchange-commons-java-0.2.15.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/cc87b04d/14d77992/HdrHistogram-2.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/954a5a9e/9f77b5f0/simpleclient_common-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/dc140d97/17cd9300/jackson-dataformat-cbor-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4496791b/9058fb50/cinnamon-common-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a8ca81f0/3a662b3b/akka-diagnostics_2.13-1.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8e8ff1b3/76f2ba34/jnr-ffi-2.1.9.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/64957dd1/d0557251/stax-ex-1.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/c8a25611/3df2aabe/jffi-1.2.18.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e5e1e048/40227031/javassist-3.24.0-GA.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2e4bc847/21bc5909/antlr-2.7.7.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/45a8225b/f69ed484/cinnamon-akka_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a2edd926/d43d3445/hibernate-core-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/38133523/c21dd68c/akka-http_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9b050fde/814119e2/akka-cluster_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/244a8ab2/748e460d/cinnamon-prometheus-httpserver-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f2338dcd/052d106f/slf4j-api-1.7.28.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/0f52d45b/53b2dca7/dom4j-2.1.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7c345d9c/7acd4d65/jboss-logging-3.3.2.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/6c3365a1/e695b49a/akka-actor_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/eed5ef12/80eb210f/akka-remote_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a14dbb58/4d6ce4ea/javax.activation-api-1.2.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/dbc89782/d875bee2/jnr-x86asm-1.0.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/18771884/1b1e610b/cinnamon-prometheus-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9d6afe51/30189697/akka-management_2.13-1.0.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/360625c5/daed874d/paranamer-2.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/579806bc/3bc0ac48/akka-persistence_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/094e8dad/c15dcf6d/jaxb-runtime-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9da67ab3/002f34b9/cinnamon-core_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/77ded92e/8fa64fae/reactive-streams-1.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/adc81feb/e023e618/jackson-module-parameter-names-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8d23332a/2a0bf9ae/asm-tree-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2701d607/ab926ea8/jackson-module-paranamer-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/04b5e070/22111b7f/asm-analysis-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/754675ba/eca239bd/jffi-1.2.18-native.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/6600d568/2c145835/asm-util-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8df6442a/c5f17aae/akka-parsing_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2e01d437/a021cd8c/jackson-datatype-jsr310-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3133563d/8d05bad2/logback-core-1.2.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/952e5b6e/054ff98d/akka-cluster-tools_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3576b951/159e56d9/hibernate-c3p0-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/14da88df/4870ab3c/jackson-databind-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/71ca291c/9fac7827/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2c2fc5c3/5254d47e/akka-stream_2.13-2.6.0.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 268435456,
+    "heap-max" : 4294967296,
+    "heap-used" : 139309080,
+    "heap-committed" : 268435456,
+    "os-processors" : 12,
+    "mem-pool-0" : {
+      "name" : "CodeHeap 'non-nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 5836800,
+      "used" : 1285120,
+      "committed" : 2555904
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 54898872,
+      "committed" : 57278464
+    },
+    "mem-pool-2" : {
+      "name" : "CodeHeap 'profiled nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 122908672,
+      "used" : 8720000,
+      "committed" : 8781824
+    },
+    "mem-pool-3" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 6872352,
+      "committed" : 7995392
+    },
+    "mem-pool-4" : {
+      "name" : "G1 Eden Space",
+      "type" : "Heap memory",
+      "init" : 27262976,
+      "max" : -1,
+      "used" : 126877696,
+      "committed" : 139460608
+    },
+    "mem-pool-5" : {
+      "name" : "G1 Old Gen",
+      "type" : "Heap memory",
+      "init" : 241172480,
+      "max" : 4294967296,
+      "used" : 6139928,
+      "committed" : 122683392
+    },
+    "mem-pool-6" : {
+      "name" : "G1 Survivor Space",
+      "type" : "Heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 6291456,
+      "committed" : 6291456
+    },
+    "mem-pool-7" : {
+      "name" : "CodeHeap 'non-profiled nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 122912768,
+      "used" : 2288128,
+      "committed" : 2555904
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "http" : {
+            "version" : "10.1.11"
+        },
+        "version" : "2.6.0"
+    },
+    "awt" : {
+        "toolkit" : "sun.lwawt.macosx.LWCToolkit"
+    },
+    "excluded-sensitive-paths" : [
+        "user.dir",
+        "user.name",
+        "user.home",
+        "ftp.nonProxyHosts",
+        "http.nonProxyHosts",
+        "socksNonProxyHosts"
+    ],
+    "file" : {
+        "encoding" : "UTF-8",
+        "separator" : "/"
+    },
+    "ftp" : {},
+    "gopherProxySet" : "false",
+    "http" : {},
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.CGraphicsEnvironment",
+            "printerjob" : "sun.lwawt.macosx.CPrinterJob"
+        },
+        "class" : {
+            "path" : "/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/job-1/target/06fb1c9f/e580b704/orders_2.13-0.1-SNAPSHOT.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/ca0e1591/8d7931b3/cinnamon-scala_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e3d92679/ddf3583c/cinnamon-core-java-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/fdff50c2/9e4235b4/akka-serialization-jackson_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5fb9d74c/aff38c77/jackson-module-scala_2.13-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/22a3ee42/fcfcb823/cinnamon-akka-http_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7f9017fb/65a4d7a3/config-1.4.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3e4726c7/0efedb67/jackson-core-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/c87d06e1/a3544a82/akka-distributed-data_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/bd47ed3a/e1526a54/jandex-2.0.5.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4b9b84b9/8752e249/akka-split-brain-resolver_2.13-1.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/31e5579b/cb34b137/scala-java8-compat_2.13-0.9.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/277c5454/4233fb28/jackson-datatype-jdk8-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5c8d81b8/48c8d9ca/jaxb-api-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e52ab892/066b4db5/commons-lang3-3.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/baf40549/f7a642d3/scala-library-2.13.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e63dd70f/0caa92e8/txw2-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/fa233aad/48a5ef8b/akka-http-spray-json_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7cb401ba/de51ef4b/scala-parser-combinators_2.13-1.1.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a021505b/a5f09784/spray-json_2.13-1.3.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/0f749020/a83fa3ff/classmate-1.3.4.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/28415d87/29a67df4/jnr-a64asm-1.0.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/72b6d823/173c0be0/akka-coordination_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/719f5fb2/0a68ca93/akka-protobuf-v3_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2fe4fead/721ddddb/cinnamon-jvm-metrics-producer-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a5fa2262/dccb3b8e/jnr-constants-0.9.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/bf1f5df0/12b3affb/akka-http-core_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4df530bd/f5a8db26/ssl-config-core_2.13-0.4.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4667a51e/c140e4ce/simpleclient-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/21f20bc4/97705cb7/logback-classic-1.2.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/1ee48baa/3a1689ef/asm-commons-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9c031ace/be238050/asm-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/071ed560/505e9f5a/istack-commons-runtime-3.0.7.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8957fd7e/11c5c43b/akka-cluster-sharding_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9771a42c/afa76a91/h2-1.4.199.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/26f7a99e/bb6a568b/hibernate-entitymanager-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f0ff2322/3fb9012e/lmdbjava-0.7.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2d76a927/025fb2e5/jackson-annotations-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f42e962c/af2bdcdb/c3p0-0.9.5.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2f4527ab/c653cd40/FastInfoset-1.2.15.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/d09af196/aa4347ce/cinnamon-java-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/947c1fb1/5dff3bb4/hibernate-commons-annotations-5.1.0.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2301ebc0/1b96c5e6/simpleclient_httpserver-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f86d1bed/a7690bbc/akka-management-cluster-http_2.13-1.0.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/def43e0b/4e207215/akka-slf4j_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/45a57760/0e96b0bf/byte-buddy-1.9.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/29b9d6c9/79aadb42/javax.persistence-api-2.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7e76bccd/be35860f/agrona-1.0.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/5b5ccb72/ea1caec1/protobuf-java-3.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3fc5ee89/d9e87303/mchange-commons-java-0.2.15.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/cc87b04d/14d77992/HdrHistogram-2.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/954a5a9e/9f77b5f0/simpleclient_common-0.8.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/dc140d97/17cd9300/jackson-dataformat-cbor-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/4496791b/9058fb50/cinnamon-common-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a8ca81f0/3a662b3b/akka-diagnostics_2.13-1.1.12.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8e8ff1b3/76f2ba34/jnr-ffi-2.1.9.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/64957dd1/d0557251/stax-ex-1.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/c8a25611/3df2aabe/jffi-1.2.18.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/e5e1e048/40227031/javassist-3.24.0-GA.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2e4bc847/21bc5909/antlr-2.7.7.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/45a8225b/f69ed484/cinnamon-akka_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a2edd926/d43d3445/hibernate-core-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/38133523/c21dd68c/akka-http_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9b050fde/814119e2/akka-cluster_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/244a8ab2/748e460d/cinnamon-prometheus-httpserver-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/f2338dcd/052d106f/slf4j-api-1.7.28.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/0f52d45b/53b2dca7/dom4j-2.1.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/7c345d9c/7acd4d65/jboss-logging-3.3.2.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/6c3365a1/e695b49a/akka-actor_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/eed5ef12/80eb210f/akka-remote_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/a14dbb58/4d6ce4ea/javax.activation-api-1.2.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/dbc89782/d875bee2/jnr-x86asm-1.0.2.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/18771884/1b1e610b/cinnamon-prometheus-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9d6afe51/30189697/akka-management_2.13-1.0.5.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/360625c5/daed874d/paranamer-2.8.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/579806bc/3bc0ac48/akka-persistence_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/094e8dad/c15dcf6d/jaxb-runtime-2.3.1.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/9da67ab3/002f34b9/cinnamon-core_2.13-2.13.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/77ded92e/8fa64fae/reactive-streams-1.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/adc81feb/e023e618/jackson-module-parameter-names-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8d23332a/2a0bf9ae/asm-tree-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2701d607/ab926ea8/jackson-module-paranamer-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/04b5e070/22111b7f/asm-analysis-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/754675ba/eca239bd/jffi-1.2.18-native.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/6600d568/2c145835/asm-util-5.0.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/8df6442a/c5f17aae/akka-parsing_2.13-10.1.11.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2e01d437/a021cd8c/jackson-datatype-jsr310-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3133563d/8d05bad2/logback-core-1.2.3.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/952e5b6e/054ff98d/akka-cluster-tools_2.13-2.6.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/3576b951/159e56d9/hibernate-c3p0-5.4.6.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/14da88df/4870ab3c/jackson-databind-2.10.0.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/71ca291c/9fac7827/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/sbt_4252c49f/target/2c2fc5c3/5254d47e/akka-stream_2.13-2.6.0.jar",
+            "version" : "55.0"
+        },
+        "home" : "/Users/matan.keidar/.sdkman/candidates/java/11.0.2-open",
+        "io" : {
+            "tmpdir" : "/var/folders/h8/q2t249kd1f17g8y8tz0hh3l00000gn/T/"
+        },
+        "library" : {
+            "path" : "/Users/matan.keidar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."
+        },
+        "runtime" : {
+            "name" : "OpenJDK Runtime Environment",
+            "version" : "11.0.2+9"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "11"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "http://bugreport.java.com/bugreport/"
+            },
+            "version" : "18.9"
+        },
+        "version" : "11.0.2",
+        "vm" : {
+            "compressedOopsMode" : "Zero based",
+            "info" : "mixed mode",
+            "name" : "OpenJDK 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "11"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "11.0.2+9"
+        }
+    },
+    "jdk" : {
+        "debug" : "release"
+    },
+    "line" : {
+        "separator" : "\n"
+    },
+    "os" : {
+        "arch" : "x86_64",
+        "name" : "Mac OS X",
+        "version" : "10.15.4"
+    },
+    "path" : {
+        "separator" : ":"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "library" : {
+                "path" : "/Users/matan.keidar/.sdkman/candidates/java/11.0.2-open/lib"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : ""
+        },
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeBig"
+            }
+        },
+        "java" : {
+            "command" : "com.reactivebbq.orders.Client open Johnny 5",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "UTF-8"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : "unknown"
+            }
+        }
+    },
+    "user" : {
+        "country" : "US",
+        "language" : "en",
+        "timezone" : "Asia/Jerusalem"
+    }
+}
+}
+
